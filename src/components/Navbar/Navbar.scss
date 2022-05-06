@@ -1,0 +1,45 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+	margin: 0 30px;
+	height: 60px;
+	// background-color: rgb(231, 18, 18);
+
+	.nav_left {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		// background-color: aquamarine;
+
+		.logo {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+		}
+
+		.nav_logo {
+			height: 50px;
+			width: 50px;
+			// background-color: blue;
+		}
+
+		.logo_text {
+			font-size: 30px;
+			font-weight: bold;
+			// background-color: coral;
+		}
+	}
+
+	.nav_right {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		// background-color: blueviolet;
+
+		.nav_link {
+			margin: 0 14px;
+		}
+	}
+}
