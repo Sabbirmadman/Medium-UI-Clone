@@ -2,10 +2,13 @@
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	padding: 3rem 0;
-	// background-color: #fec016;
+	padding: 3rem 2rem;
+	
+	background-color: #fec016;
+	
 
 	.top_sec_left {
+
 		flex: 0.5;
 		display: flex;
 		flex-direction: column;
@@ -47,6 +50,7 @@
 
 .trending_sec {
 	margin-top: 30px;
+	padding : 0 2rem;
 	// background-color: brown;
 
 	.trending_sec_title {
@@ -64,6 +68,7 @@
 }
 
 .blog_sec {
+	padding: 0 2rem;
 	flex: 1;
 	display: flex;
 	flex-direction: row;
@@ -81,14 +86,21 @@
 		display: flex;
 		flex-direction: column;
 		margin-left: 15px;
-		// background-color: chartreuse;
+	
+		//background-color: chartreuse;
 
+		.blog_sec_right_sticky {
+			position: sticky;
+			top: 70px;
+	
+		}
 
 		.blog_sec_right_title {
 			font-size: 14px;
 			font-weight: bold;
 			margin-bottom: 10px;
 			margin: 5px;
+			
 		}
 
 		.categories {
